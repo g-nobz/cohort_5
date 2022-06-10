@@ -1,0 +1,40 @@
+#box-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 200px;
+    background: #eee;
+    margin: 0 0 0 13%;
+    text-align: center;
+    line-height: 3;
+}
+
+#box-absolute{
+    position: absolute;
+    height: 100px;
+    width: 300px;
+    background: #999;
+    text-align: center;
+    line-height: 3;
+    left: 60%;
+    top: 27%;
+}
+
+#box-relative{
+    position: relative;
+    height: 200px;
+    width: 55%;
+    left: 18%;
+    background: #eee;
+    text-align: center;
+    line-height: 3;
+}
+
+p{
+    margin: 0% 20% 0% 20%;
+}
+
+h1{
+    margin-left: 20%;
+}
