@@ -7,8 +7,13 @@
     </title>
   </head>
   <body>
+
+    <!-- starts a program with javascript -->
     <script type="text/javascript">
 
+      // prompts the user with this question
+      // then asks (confirms) if the user likes cats
+      // this is done with a "confirm" or "ok" button
       var userName = prompt("What's your name?");
       var confirmCats = confirm("Do you like cats?");
 
@@ -17,24 +22,32 @@
       var petAge = 5;
       var petIsCat = true;
 
+      // if the user confirms in the previous prompt, then it displays the above variables
       if (confirmCats) {
         alert(petName + " " + petType + " " + petAge);
       }
+
+      // otherwise, the site displays this message
       else {
         alert("You don't get my cat's information");
       }
 
+      // always displays (pet is cat is always true)
       if (petIsCat) {
         alert("My pet is a cat");
       }
+
+      // never displays
       else {
         alert("My pet is not a cat");
       }
 
+      // displays, since the pet is 5
       if (petAge !== 7) {
         alert("My pet is not 7 years old");
       }
 
+      // displays, since the cat is 5 years old
       if (petAge === 5) {
         alert("My pet is 5 years old");
       }
@@ -50,9 +63,11 @@
 
       var catAge = prompt("How old is your cat?");
 
+      // concatenates the catage and 2
       // Won't work as expected
       alert(catAge + 2);
 
+      // adds the two numbers
       // Works as expected
       alert(parseInt(catAge) + 2);
 
